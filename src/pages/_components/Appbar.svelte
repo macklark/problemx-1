@@ -1,5 +1,9 @@
 <div>
     <h1>ProblemX</h1>
+    <nav>
+        <a href="">Authentication</a>
+        <a href="">Create a new problem</a>
+    </nav>
     <div class="typewriter">
         <p>A website full of problems ...</p>
     </div>
@@ -13,6 +17,18 @@
         text-align: center;
         font-family: "Inconsolata", monospace;
         font-size: 25px;
+    }
+
+    a {
+        font-size: 20px;
+        color: #7289DA;
+        text-decoration: none;
+        transition: 400ms ease-in;
+    }
+
+    a:hover {
+        background-color: white;
+        padding: 10px;
     }
 
     .typewriter {
@@ -52,5 +68,6 @@
 
     :global(body) {
         background-color: #2C2F33;
+        font-family: Inconsolata, monospace;
     }
 </style>
